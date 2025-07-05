@@ -338,6 +338,7 @@ int main() {
         }
 
         printf("\n\n### Resultado final ###\n");
+        printf("Soma dos atributos escolhidos:\n%s: %.2f\n%s: %.2f\n\n", cidade1, somaAtributos1, cidade2, somaAtributos2);
 
         if(somaAtributos1 >= somaAtributos2) {
             if(somaAtributos1 == somaAtributos2) {
